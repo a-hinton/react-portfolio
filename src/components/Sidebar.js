@@ -1,28 +1,28 @@
 import React from 'react';
-import Contact from './Contact.js';
+import Photo from '../assets/images/designer-girl.svg';
 import Github from '../assets/icons/github-sign.png';
 import LinkedIn from '../assets/icons/linkedin-logo.png';
 import './Sidebar.css';
 
 function Sidebar() {
     return (
-        <div>
-            <img src="" alt="" />
-            <div className="sidebar_name">Alexandra <span>Hinton</span></div>
+        <div className="sidebar-elements sidebar-item">
+            <img src={ Photo } alt="Coder Logo" className="image" />
+            <div className="sidebar_item name">Alexandra<span>Hinton</span></div>
             <div className="sidebar_item title">Fullstack Developer</div>
             <a href="">
-                <div className="sidebar_item">
-                    <img src="" alt="" />Download Resume
-                </div>
+                <button className="sidebar_item">
+                    Download Resume
+                </button>
             </a>
 
-            <figure className="social-icons">
-                <a href=""><img src={ Github } alt="Github logo" className="icon"/></a>
-                <a href="www.linkedin.com/in/alexandrakhinton"><img src={ LinkedIn } alt="LinkedIn logo" className="icon"/></a>
+            <figure className="sidebar_item social-icons">
+                <a href="" target="_blank"><img src={ Github } alt="Github logo" className="icon"/></a>
+                <a href="www.linkedin.com/in/alexandrakhinton" target="_blank"><img src={ LinkedIn } alt="LinkedIn logo" className="icon"/></a>
             </figure>
 
-            <div className="contact">
-                <Contact />
+            <div className="sidebar_item contact">
+                E-mail: <span>alexandra.k.hinton1@gmail.com</span> 
             </div>
         </div>
     )

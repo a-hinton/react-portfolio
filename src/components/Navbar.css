@@ -1,0 +1,26 @@
+.navbar {
+    margin-top: 1vh;
+}
+
+.navbar_items {
+    display: flex;
+}
+
+.navbar_active {
+    font-size:2rem;
+    font-weight:bold;
+    color:aliceblue;
+    border-bottom: 5px solid coral;
+}
+
+.navbar_item {
+    margin-right: 3rem;
+    color:aliceblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar_item:hover {
+    color: coral
+}

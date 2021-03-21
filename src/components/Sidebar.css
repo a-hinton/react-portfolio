@@ -1,4 +1,44 @@
+.sidebar-elements {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.image {
+    margin-top:-4vh
+}
+
+button, .sidebar-item {
+    color:aliceblue
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+span {
+    font-weight: bold;
+    color:coral
+}
+
+.sidebar_item {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
 .icon {
     max-width: 50px;
     min-height: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+button {
+    padding: 5px;
+    margin-top: 1vh;
+    background: rgba( 138, 138, 138, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
