@@ -17,7 +17,7 @@ function Sidebar() {
             </a>
 
             <figure className="sidebar_item social-icons">
-                <a href="" target="_blank"><img src={ Github } alt="Github logo" className="icon"/></a>
+                <a href="https://github.com/a-hinton" target="_blank" rel="noreferrer"><img src={ Github } alt="Github logo" className="icon"/></a>
                 <a href="www.linkedin.com/in/alexandrakhinton" target="_blank"><img src={ LinkedIn } alt="LinkedIn logo" className="icon"/></a>
             </figure>
 

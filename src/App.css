@@ -16,12 +16,9 @@
   margin-left: 4vw;
 }
 
-/* .main {
-  display: flex;
-  flex-direction: column;
-  align-items: space-around center;
-  justify-content: center;
-} */
+.main {
+  height: 100%;
+}
 
 .glass {
   background: rgba( 138, 138, 138, 0.40 );

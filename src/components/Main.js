@@ -12,23 +12,20 @@ function Main() {
                 <Navbar />
             </div>
 
-            <div className="row main-container">
-                <Switch> {/* once a matching path is found, switch breaks and allows the page to route */}
-                    <Route exact path="/">
-                        <About />
-                    </Route>
+            <Switch> {/* once a matching path is found, switch breaks and allows the page to route */}
+                <Route exact path="/">
+                    <About />
+                </Route>
 
-                    <Route exact path="/projects">
-                        <Projects />
-                    </Route>
+                <Route exact path="/projects">
+                    <Projects />
+                </Route>
 
-                    <Route>
-                        <Redirect to="/" />
-                    </Route>
-                </Switch>
-            </div>
+                <Route>
+                    <Redirect to="/" />
+                </Route>
+            </Switch>
 
-            <div className="buffer-container"></div>
         </Router>
 
     )

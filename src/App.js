@@ -12,10 +12,10 @@ function App() {
       <div className="App">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-3 sidebar glass">
+            <div className="col-lg-3 col-md-11 sidebar glass">
               <Sidebar />
             </div>
-            <div className="col-8 main glass">
+            <div className="col-lg-8 col-md-11 main glass">
               <Main />
             </div>
           </div>
