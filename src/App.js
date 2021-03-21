@@ -11,12 +11,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-3 sidebar glass">Sidebar</div>
+          <div className="col-8 main glass">Main</div>
+        </div>
+      </div>
+      
+      
+
+      {/* <Header />
       <Navbar />
-      <Sidebar />
-      <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
