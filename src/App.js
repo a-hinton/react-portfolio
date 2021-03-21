@@ -15,7 +15,7 @@ function App() {
             <div className="col-3 sidebar glass">
               <Sidebar />
             </div>
-            <div className="col-8 glass">
+            <div className="col-8 main glass">
               <Main />
             </div>
           </div>

@@ -16,6 +16,13 @@
   margin-left: 4vw;
 }
 
+/* .main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around center;
+  justify-content: center;
+} */
+
 .glass {
   background: rgba( 138, 138, 138, 0.40 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
